@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.digitalers</groupId>
+	<artifactId>parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Padre de los proyectos Maven</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<developers>
+		<developer>
+			<name>Octavio Robleto</name>
+		</developer>
+	</developers>
+	<dependencies>
+		<!-- Muchas dependencias para Spring-->
+		<!-- Conctor Base de Datos, Spring, Validaciones, Seguridad-->
+
+	</dependencies>
+	<modules>
+		<module>../Clase23</module>
+		<module>../digitalers-utilities</module>
+	</modules>
+</project>
